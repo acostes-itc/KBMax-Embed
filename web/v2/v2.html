@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Embed_v2</title>
+
+    <link rel="stylesheet" href="css.css">
+
+    <script src="https://itc-dev.kbmax.com/embed.min.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src="v2.js"></script>
+
+</head>
+<body>
+    <center> <h1>Integration KBMax v2</h1> </center>
+
+    <div class="viewer" id="viewer"> [VIEWER] </div>
+
+    <form>
+        <br><label for="nbRangee">Nombre de rangée :</label>
+        <input id="nbRangee" type="number" min="2" max="5" value="2" autocomplete="off"/><br>
+
+        <br><label for="AddClone">Il y a <a id="nbClone">0</a> disjoncteurs</label>
+        <button type="button" id="AddClone">+</button>
+        <button type="button" id="RemoveClone">-</button>
+
+        <p id="error"></p>
+    </form>
+
+</body>
+</html>

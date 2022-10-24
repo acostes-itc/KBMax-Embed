@@ -1,0 +1,16 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.viewer{
+    height: 30em;
+    width: 60%;
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#error{
+    color: red;
+}
