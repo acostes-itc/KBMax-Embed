@@ -3,7 +3,7 @@ function greet( event ) {
 }
 
 function setTxt(value){
-  $("#txt").html(value);
+  document.getElementById('text').innerHTML = value;
 }
 
 function test(){
